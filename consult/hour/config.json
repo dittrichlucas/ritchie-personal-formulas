@@ -1,0 +1,45 @@
+{
+    "dockerImageBuilder": "cimg/go:1.14",
+    "inputs": [
+        {
+            "cache": {
+                "active": true,
+                "newLabel": "New time",
+                "qty": 2
+            },
+            "name": "first_entry",
+            "type": "text",
+            "label": "Entry 1 (e.g: 09h00m): "
+        },
+        {
+            "cache": {
+                "active": true,
+                "newLabel": "New time",
+                "qty": 2
+            },
+            "name": "first_exit",
+            "type": "text",
+            "label": "Exit 1(e.g: 12h00m): "
+        },
+        {
+            "cache": {
+                "active": true,
+                "newLabel": "New time",
+                "qty": 2
+            },
+            "name": "second_entry",
+            "type": "text",
+            "label": "Entry 2(e.g: 13h00m): "
+        },
+        {
+            "cache": {
+                "active": true,
+                "newLabel": "New time",
+                "qty": 2
+            },
+            "name": "second_exit",
+            "type": "text",
+            "label": "Exit 2(e.g: 18h48m): "
+        }
+    ]
+}
