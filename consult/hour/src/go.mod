@@ -2,6 +2,4 @@ module formula
 
 go 1.14
 
-require (
-    github.com/gookit/color v1.2.5
-)
+require github.com/fatih/color v1.13.0

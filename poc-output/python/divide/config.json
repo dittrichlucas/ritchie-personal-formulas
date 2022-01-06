@@ -1,0 +1,34 @@
+{
+    "dockerImageBuilder": "ritclizup/rit-python3-builder",
+    "inputs": [
+        {
+            "label": "Number 1: ",
+            "name": "rit_number_1",
+            "type": "text"
+        },
+        {
+            "label": "Number 2: ",
+            "name": "rit_number_2",
+            "type": "text"
+        },
+        {
+            "label": "Divider: ",
+            "name": "rit_divider",
+            "type": "text"
+        },
+        {
+            "items": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "label": "Choose one or more days: ",
+            "name": "rit_input_multiselect",
+            "required": true,
+            "type": "multiselect",
+            "tutorial": "choose which days you will work at the office"
+        }
+    ]
+}

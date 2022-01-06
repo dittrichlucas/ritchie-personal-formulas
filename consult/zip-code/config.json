@@ -1,0 +1,16 @@
+{
+    "description": "Sample inputs in Ritchie.",
+    "inputs" : [
+      {
+        "name" : "zip",
+        "type" : "text",
+        "label" : "Type your zip code [ex.: 00000000]: ",
+        "cache" : {
+          "active": true,
+          "qty" : 6,
+          "newLabel" : "Type new value. "
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "dockerImageBuilder": "ritclizup/rit-powershell-builder",
+    "inputs": [
+        {
+            "label": "Number 1: ",
+            "name": "rit_number_1",
+            "type": "text"
+        },
+        {
+            "label": "Number 2: ",
+            "name": "rit_number_2",
+            "type": "text"
+        },
+        {
+            "label": "Exponent: ",
+            "name": "rit_exponent",
+            "type": "text"
+        }
+    ]
+}

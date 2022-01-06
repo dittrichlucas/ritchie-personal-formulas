@@ -1,0 +1,16 @@
+{
+    "dockerImageBuilder": "ritclizup/rit-kotlin-jdk8-builder",
+    "inputs": [
+        {
+            "items": [
+                "QA",
+                "DEV",
+                "INFRA"
+            ],
+            "label": "What is your role? ",
+            "name": "rit_input_role",
+            "required": true,
+            "type": "text"
+        }
+    ]
+}

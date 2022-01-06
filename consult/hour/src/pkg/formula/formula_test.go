@@ -2,10 +2,9 @@ package formula
 
 import (
 	"bytes"
-	"fmt"
 	"testing"
 
-	"github.com/gookit/color"
+	"github.com/fatih/color"
 )
 
 func TestFormula_Run(t *testing.T) {
@@ -29,10 +28,10 @@ func TestFormula_Run(t *testing.T) {
 				SecondExit:  "",
 			},
 			wantWriter: func() string {
-				return fmt.Sprintf("Hello world!\n") +
-					color.FgGreen.Render("You receive Hello in text.\n") +
-					color.FgRed.Render("You receive World in list.\n") +
-					color.FgYellow.Render("You receive true in boolean.\n")
+				return "Hello world!\n" +
+					color.GreenString("You receive Hello in text.\n") +
+					color.RedString("You receive World in list.\n") +
+					color.YellowString("You receive true in boolean.\n")
 			}(),
 		},
 	}

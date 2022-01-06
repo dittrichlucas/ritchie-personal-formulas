@@ -1,0 +1,20 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-typescript-builder",
+  "inputs": [
+    {
+        "label": "Number 1: ",
+        "name": "number_1",
+        "type": "text"
+    },
+    {
+        "label": "Number 2: ",
+        "name": "number_2",
+        "type": "text"
+    },
+    {
+        "label": "Subtract from: ",
+        "name": "subtract",
+        "type": "text"
+    }
+  ]
+}
